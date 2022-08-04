@@ -338,13 +338,14 @@ img {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-
   transition: fill var(--transition-main),
     background-color var(--transition-main);
 }
 .team-social-icon {
   fill: var(--link-color);
+  transition: fill var(--transition-main);
 }
+
 .team-link:hover,
 .team-link:focus {
   background-color: var(--accent-color);
@@ -352,7 +353,6 @@ img {
 
 .team-link:hover .team-social-icon,
 .team-link:focus .team-social-icon {
-  background-color: var(--accent-color);
   fill: var(--light-titles-color);
 }
 /*----------CLIENTS------------*/
